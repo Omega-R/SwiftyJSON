@@ -26,6 +26,13 @@
 		1B587CC81DDE04790012D8DB /* MergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B587CC41DDE04360012D8DB /* MergeTests.swift */; };
 		2E4FEFE119575BE100351305 /* SwiftyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4FEFE019575BE100351305 /* SwiftyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E4FEFE719575BE100351305 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4FEFDB19575BE100351305 /* SwiftyJSON.framework */; };
+		44DC75C12BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C22BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C32BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C42BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C52BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C62BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
+		44DC75C72BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */; };
 		5DD502911D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
 		5DD502921D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
 		5DD502931D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
@@ -119,6 +126,7 @@
 		2E4FEFDF19575BE100351305 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		2E4FEFE019575BE100351305 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = SwiftyJSON/SwiftyJSON.h; sourceTree = "<group>"; };
 		2E4FEFE619575BE100351305 /* SwiftyJSON iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyJSON iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5DD502901D9B21810004C112 /* NestedJSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NestedJSONTests.swift; path = ../SwiftJSONTests/NestedJSONTests.swift; sourceTree = "<group>"; };
 		712921EE2004E4EB00DA6340 /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodableTests.swift; path = ../SwiftJSONTests/CodableTests.swift; sourceTree = "<group>"; };
 		7236B4F61BAC14150020529B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +241,7 @@
 			children = (
 				2E4FEFE019575BE100351305 /* SwiftyJSON.h */,
 				A8491E1D19CD6DAE00CCFAE6 /* SwiftyJSON.swift */,
+				44DC75C02BB1B4B600100AF6 /* PrivacyInfo.xcprivacy */,
 				2E4FEFDE19575BE100351305 /* Supporting Files */,
 			);
 			path = Source;
@@ -527,6 +536,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C12BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +544,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C22BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 				A885D1DC19CFCFF0002FD4C3 /* Tests.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +553,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C62BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +561,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C32BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +569,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C42BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 				9C459EF81A9103C1008C9A41 /* Tests.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +578,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C72BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 				A81CBA0B1BCF6B0200A649A2 /* Tests.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +587,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DC75C52BB1B4B600100AF6 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
